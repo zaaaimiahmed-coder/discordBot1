@@ -83,7 +83,7 @@ export const botConfig = {
     deleteApprovedAfter: 30,
 
     // Role IDs allowed to manage applications.
-    managerRoles: [1151959667744968724], // Will be populated from environment or database
+    managerRoles: [1554376608373022761], // Will be populated from environment or database
   },
 
   // =========================
@@ -217,7 +217,7 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1554376608373022761],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -277,7 +277,7 @@ export const botConfig = {
     maximumDuration: 2592000000,
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1554376608373022761],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
